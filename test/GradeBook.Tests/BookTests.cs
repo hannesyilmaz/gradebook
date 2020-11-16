@@ -13,6 +13,7 @@ namespace GradeBook.Tests
             book.AddGrade(89.1);
             book.AddGrade(90.5);
             book.AddGrade(77.3);
+            book.AddGrade(67.3);
 
             //act (this is where u invoke a method to perfom a computation that produces a result)
             var result = book.GetStatistics();
